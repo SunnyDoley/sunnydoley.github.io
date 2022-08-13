@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-bar{
+    background: khaki;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+    border-style: outset;
+    outline-style: outset;
+    outline-color: white;
+}
+.nav-bar img{
+    height: 45px;
+    float: left;
+    margin-left: 0px;
+}
+
+
+.menu-right{
+    display: inline-block;
+    text-align: left;
+    
+}
+.menu-right:hover{
+    background-color: #dce5bb;
+    border-style: inset;
+    transition: .4s;
+}
+.menu-right ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    
+}
+.menu-right ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.menu-right ul li:hover a{
+    background: khaki;
+    transition: .3s;
+    border-radius: 3px;
+    border-style: outset;
+    
+}
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: block;
+}
+
+@media only screen and (max-width: 700px){
+    .menu-right span
+    {
+        display: block;
+    }
+    .menu-right ul li{
+        display: block;
+    }
+    .menu-right ul{
+        display: none;
+    }
+}
+.boody{
+    
+}
+
+.myself{
+    background-color: #dce5bb;
+    border-radius: 10px;
+    text-align: left;
+    margin-top:20px ;
+    margin-right: 10%;
+    margin-left: 50px;
+    padding: 100px;
+    padding-right: 10px;
+    border-style: outset  ;
+    outline-style: outset;
+    outline-color: white;
+}
+
+img{
+    height: 150px;
+}
+
+h1{
+    font-family: fantasy;
+    font-weight: 100;
+}
+p{
+    font-family: sans-serif;
+}
+
+.myskills {
+    text-align: right;
+    padding-right: 20%;
+    background: peachpuff;
+    padding: 100px;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: outset  ;
+    outline-style: outset;
+    outline-color: white;
+
+
+}
+.myskills ul li{
+    font-family: sans-serif;
+    list-style: none;
+    
+}
+table {
+    list-style: none;
+}
+.facebook{
+    padding: 10px;
+
+}
+.facebook:hover{
+    background-color: #dce5bb;
+    border-style: outset;
+}
+
+.insta{
+    padding: 10px;
+}
+.insta:hover{
+    background-color: #dce5bb;
+    border-style: outset;
+  
+}
+.linkedin{
+    padding: 10px;
+}
+.linkedin:hover{
+    background-color: #dce5bb;
+    border-style: outset;
+}
+
+
+
